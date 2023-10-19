@@ -12,10 +12,7 @@ public class Main {
                 break;
             }
         }
-        if (isMirrored)
-            return true;
-        else
-            return false;
+    return isMirrored;
     }
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
